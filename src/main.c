@@ -267,6 +267,9 @@ int main(void)
         APP_ERROR_CHECK( bootloader_dfu_start(_ota_dfu, 0, false) );
       }
 
+      // Delay just a moment to allow the OS to realize it's file copy is done.
+      NRFX_DELAY_MS(100);
+
       if ( _ota_dfu )
       {
         sd_softdevice_disable();
