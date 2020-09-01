@@ -1,7 +1,7 @@
 /*
  * The MIT License (MIT)
  *
- * Copyright (c) 2020 nitz — chris marc dailey https://cmd.wtf
+ * Copyright (c) 2020 nitz ï¿½ chris marc dailey https://cmd.wtf
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -64,7 +64,7 @@
 #define UF2_PRODUCT_NAME      "Odiin by cmd.wtf"
 #define UF2_VOLUME_LABEL      "ODIINBOOT"
 #define UF2_BOARD_ID          "Odiin"
-#define UF2_INDEX_URL         "https://cmd.wtf"
+#define UF2_INDEX_URL         "https://cmd.wtf/projects/odiin?utm_source=odiin-device&utm_medium=bootloader&utm_campaign=odiin"
 
 
 #endif /* _CMD_WTF_ODIIN_ */
