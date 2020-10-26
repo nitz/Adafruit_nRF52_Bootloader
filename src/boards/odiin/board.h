@@ -56,9 +56,9 @@
 //--------------------------------------------------------------------+
 // USB
 //--------------------------------------------------------------------+
-#define USB_DESC_VID            0x1209			// pending approval from pid.codes
-#define USB_DESC_UF2_PID        0x0D10			// pending approval from pid.codes
-#define USB_DESC_CDC_ONLY_PID   0x0D10
+#define USB_DESC_VID            0x1209
+#define USB_DESC_UF2_PID        0xD10F
+#define USB_DESC_CDC_ONLY_PID   0xD10F
 
 //------------- UF2 -------------//
 #define UF2_PRODUCT_NAME      "Odiin by cmd.wtf"
